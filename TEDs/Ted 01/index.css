@@ -1,0 +1,32 @@
+html{
+
+    margin:0%;
+    
+}
+
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+li,a{
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.link{
+
+    display: flex;
+    flex-direction: ro;
+}
+
