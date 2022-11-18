@@ -1,0 +1,59 @@
+body {
+
+    background-color: #1BA1AD;
+    background-image: url(./bg-pattern-bottom.svg);
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.card{
+
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+
+}
+
+
+.bottom-half{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.icon-image {
+
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+img {
+
+    border-radius: 50%;
+    border: 5px solid black
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 45px;
+    text-align:center;
+    align-items: center;
+}
+
+
+
+
+
+
+
